@@ -1,0 +1,18 @@
+# Exclude Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Exclude crash logs
+crash.log
+
+# Exclude variable files with sensitive data
+terraform.tfvars
+
+# Exclude override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Exclude any credentials files
+credentials.json
