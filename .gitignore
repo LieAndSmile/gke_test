@@ -16,3 +16,4 @@ override.tf.json
 
 # Exclude any credentials files
 credentials.json
+.terraform/
